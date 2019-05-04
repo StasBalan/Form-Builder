@@ -1,0 +1,30 @@
+.output-form__app {
+    position: absolute;
+    left: 30%;
+    width: 700px;
+}
+
+.output-form h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+
+.output-form__item {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px 0 20px 0;
+    margin-top: 30px;
+}
+
+.form-input input {
+    padding: 5px 10px;
+}
+
+.input1 {
+    margin-right: 10px;
+}

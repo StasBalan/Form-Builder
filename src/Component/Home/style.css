@@ -1,0 +1,51 @@
+.form-builder {
+    padding-top: 20px;
+}
+
+.form-builder__title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.form-builder__title:after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #FF670F;
+    position: absolute;
+    top: 80px;
+    left: 48%;
+}
+
+.form-builder__input {
+    padding: 10px 10px;
+    width: 400px;
+    border: 2px solid #000;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-builder__checkbox {
+    margin-top: 20px;
+}
+
+#check {
+    margin-left: 20px;
+}
+
+.form-builder__button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: 3px solid #FF670F;
+    background: none;
+    cursor: pointer;
+    transition: .25s;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-builder__button:hover {
+    background: #FF670F;
+    color: #ffffff;
+}
